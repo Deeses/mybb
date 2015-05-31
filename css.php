@@ -14,9 +14,9 @@ define("IN_MYBB", 1);
 define("NO_ONLINE", 1);
 define('THIS_SCRIPT', 'css.php');
 
-require_once "./sfdkfxzpahlorlsc/init.php";
+require_once "./inc/init.php";
 #Let's remove this shall we?
-//require_once MYBB_ROOT . $config['admin_dir'] . '/sfdkfxzpahlorlsc/functions_themes.php';
+//require_once MYBB_ROOT . $config['admin_dir'] . '/inc/functions_themes.php';
 
 #Added from functions_themes
 function minify_stylesheet($stylesheet)
